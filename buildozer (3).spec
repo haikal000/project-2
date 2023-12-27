@@ -1,13 +1,13 @@
 [app]
 
 # (str) Title of your application
-title = My Application
+title = My Leaves
 
 # (str) Package name
-package.name = myapp
+package.name = myleaves
 
 # (str) Package domain (needed for android/ios packaging)
-package.domain = com.test
+package.domain = org.myleaves
 
 # (str) Source code where the main.py live
 source.dir = .
@@ -37,7 +37,7 @@ version = 0.1
 
 # (list) Application requirements
 # comma separated e.g. requirements = sqlite3,kivy
-requirements = python3,kivy==2.2.1,kivymd
+requirements = python3,kivy==2.2.1,kivymd==1.1.1,pillow
 
 # (str) Custom source folders for requirements
 # Sets custom source for any requirements with recipes
